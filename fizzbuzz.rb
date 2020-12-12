@@ -6,12 +6,12 @@ require_relative '../fizzbuzz.rb'
 
 def fizzbuzz(number)
   if number % 3 == 0
-    puts "Fizz"
+    "Fizz"
   elsif number % 5 == 0
-    puts "Buzz"
+    "Buzz"
   elsif number % 3 && number % 5 == 0
-    puts "FizzBuzz"
+    "FizzBuzz"
   else number % 3 || number % 5 != 0
-    puts nil
+    "nil"
   end
 end
